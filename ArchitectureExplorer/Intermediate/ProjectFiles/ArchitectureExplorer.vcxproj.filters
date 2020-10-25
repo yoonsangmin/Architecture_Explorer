@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ArchitectureExplorer.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E81F89D9-E39C-45A1-ACDF-6CB883DA721F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArchitectureExplorer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ArchitectureExplorerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1527C8CC-1297-4706-B73D-D1080E39FE74}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ArchitectureExplorer">
+      <UniqueIdentifier>{FC9662E7-5B9A-401B-863C-8B05128CFE14}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArchitectureExplorer\ArchitectureExplorer.Build.cs">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ArchitectureExplorer\ArchitectureExplorer.cpp">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArchitectureExplorer\ArchitectureExplorer.h">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArchitectureExplorer\ArchitectureExplorerGameModeBase.cpp">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArchitectureExplorer\ArchitectureExplorerGameModeBase.h">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArchitectureExplorer\VRCharacter.cpp">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArchitectureExplorer\VRCharacter.h">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
