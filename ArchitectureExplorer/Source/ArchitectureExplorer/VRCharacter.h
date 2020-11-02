@@ -28,12 +28,67 @@ public:
 
 private:
 
+	bool FindTeleportDestination(FVector &OutLocation);
+	void UpdateDestinationMarker();
+	void UpdateBlinkers();
+	FVector2D GetBlinkerCentre();
+
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
 
+	void BeginTeleport();
+	void FinishTeleport();
+
+	void StartFade(float FromAlpha, float ToAlpha);
+
+	void TurnPlayer(float throttle);
+	void ExecuteTurn(int direction);
+	void ExecuteTurn_2(int direction);
 private:
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY()
 	class UCameraComponent* Camera;
+
+	UPROPERTY()
+	class UMotionControllerComponent* LeftController;
+
+	UPROPERTY()
+	class UMotionControllerComponent* RightController;
+
+	UPROPERTY()
 	class USceneComponent* VRRoot;
 
+	UPROPERTY(VisibleAnywhere)
+	class UStaticMeshComponent* DestinationMarker;
+
+	UPROPERTY()
+	class UPostProcessComponent* PostProcessComponent;
+	
+	UPROPERTY()
+	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
+
+private:
+
+	UPROPERTY(EditAnywhere)
+	float MoveSpeed = 1.0f;
+
+	UPROPERTY(EditAnywhere)
+	float MaxTeleportDistance = 1000;
+
+	UPROPERTY(EditAnywhere)
+	float TeleportFadeTime = 1;
+
+	UPROPERTY(EditAnywhere)
+	FVector TeleportProjectExtent = FVector(100, 100, 100);
+
+	UPROPERTY(EditAnywhere)
+	class UMaterialInterface* BlinkerMaterialBase;
+
+	UPROPERTY(EditAnywhere)
+	class UCurveFloat* RadiusVsVelocity;
+
+	UPROPERTY(EditAnywhere)
+	float TurningDegree = 30.0f;
+
+	UPROPERTY(EditAnywhere)
+	bool IsTurned = false;
 };
