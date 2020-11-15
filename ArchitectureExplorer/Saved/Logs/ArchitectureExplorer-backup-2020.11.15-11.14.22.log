@@ -1,0 +1,1908 @@
+﻿Log file open, 11/15/20 17:58:37
+LogInit: Display: Running engine for game: ArchitectureExplorer
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.233969
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.15-08.58.38:284][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.15-08.58.38:284][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.15-08.58.38:284][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+[2020.11.15-08.58.38:284][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.15-08.58.38:284][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+[2020.11.15-08.58.38:284][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+[2020.11.15-08.58.38:284][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.15-08.58.38:284][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.15-08.58.38:284][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.15-08.58.38:285][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+[2020.11.15-08.58.38:285][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+[2020.11.15-08.58.38:290][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.15-08.58.38:290][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.15-08.58.38:291][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.15-08.58.38:291][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.15-08.58.38:291][  0]LogHAL: Display: Platform has ~ 32 GB [34286350336 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.15-08.58.38:291][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.15-08.58.38:291][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.15-08.58.38:291][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Scalability.ini]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.15-08.58.38:292][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.15-08.58.38:293][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.15-08.58.38:293][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.15-08.58.38:293][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.15-08.58.38:293][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Config/Windows/Engine.ini]
+[2020.11.15-08.58.38:293][  0]LogInit: Computer: DESKTOP-ACU9HMF
+[2020.11.15-08.58.38:293][  0]LogInit: User: Acer
+[2020.11.15-08.58.38:293][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.11.15-08.58.38:293][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.15-08.58.38:293][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.11.15-08.58.38:293][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.15-08.58.38:293][  0]LogMemory: Process Physical Memory: 128.09 MB used, 128.10 MB peak
+[2020.11.15-08.58.38:293][  0]LogMemory: Process Virtual Memory: 106.89 MB used, 106.89 MB peak
+[2020.11.15-08.58.38:293][  0]LogMemory: Physical Memory: 12165.83 MB used,  20532.18 MB free, 32698.01 MB total
+[2020.11.15-08.58.38:293][  0]LogMemory: Virtual Memory: 5238.12 MB used,  134212488.00 MB free, 134217728.00 MB total
+[2020.11.15-08.58.38:304][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.15-08.58.38:420][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.15-08.58.38:421][  0]LogInit: Using OS detected language (ko-KR).
+[2020.11.15-08.58.38:421][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.11.15-08.58.38:432][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.11.15-08.58.38:529][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.15-08.58.38:582][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.15-08.58.38:582][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.15-08.58.38:787][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.15-08.58.38:787][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.15-08.58.38:787][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.15-08.58.38:884][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.11.15-08.58.38:884][  0]LogD3D11RHI:       8010/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.15-08.58.38:889][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.15-08.58.38:889][  0]LogD3D11RHI:       0/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.15-08.58.38:889][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.15-08.58.38:898][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.15-08.58.38:898][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.15-08.58.38:898][  0]LogWindows: EnumDisplayDevices:
+[2020.11.15-08.58.38:898][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.11.15-08.58.38:898][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.11.15-08.58.38:899][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.11.15-08.58.38:900][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.11.15-08.58.38:901][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.15-08.58.38:901][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.11.15-08.58.38:901][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2020.11.15-08.58.38:901][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2020.11.15-08.58.38:901][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.11.15-08.58.38:970][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.15-08.58.38:970][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.15-08.58.38:970][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.15-08.58.39:006][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.15-08.58.39:423][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.15-08.58.39:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.15-08.58.39:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.15-08.58.39:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.15-08.58.39:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.15-08.58.39:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.15-08.58.39:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.15-08.58.39:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.15-08.58.39:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.15-08.58.39:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.15-08.58.39:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.15-08.58.39:617][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.15-08.58.39:617][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.15-08.58.39:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.15-08.58.39:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.15-08.58.39:657][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.15-08.58.39:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.15-08.58.39:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.15-08.58.39:700][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.15-08.58.39:700][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.15-08.58.39:715][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.15-08.58.39:827][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Intermediate/Shaders/WorkingDirectory/9112/).
+[2020.11.15-08.58.39:828][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Acer/AppData/Local/Temp/UnrealShaderWorkingDir/2C8107A5445CC60BA4CE1AAF0F53B9C7/'.
+[2020.11.15-08.58.39:828][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.15-08.58.39:829][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.15-08.58.39:829][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.15-08.58.40:602][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.15-08.58.40:663][  0]LogDerivedDataCache: Loaded boot cache 0.06s 98MB C:/Users/Acer/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.15-08.58.40:663][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Acer/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.15-08.58.40:663][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.15-08.58.40:663][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.15-08.58.40:664][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.15-08.58.40:664][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.15-08.58.40:675][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.15-08.58.40:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.15-08.58.40:675][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.15-08.58.40:677][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Acer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.15-08.58.40:677][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.15-08.58.40:677][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.15-08.58.40:728][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.15-08.58.40:728][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.15-08.58.40:756][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.11.15-08.58.41:012][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.15-08.58.41:150][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.15-08.58.41:150][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.15-08.58.41:150][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.15-08.58.41:150][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.15-08.58.41:150][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.15-08.58.41:173][  0]LogNetVersion: ArchitectureExplorer 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2498555225)
+[2020.11.15-08.58.41:620][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F7706FC440), frame # 0
+[2020.11.15-08.58.41:620][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7749C6AC0), frame # 0
+[2020.11.15-08.58.41:621][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F77068DE00), frame # 0
+[2020.11.15-08.58.41:698][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.069288 seconds
+[2020.11.15-08.58.41:705][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.15-08.58.41:705][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.15-08.58.41:705][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.15-08.58.42:249][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.15-08.58.42:256][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.15-08.58.42:400][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.11.15-08.58.42:400][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.11.15-08.58.42:405][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.11.15-08.58.42:411][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.11.15-08.58.42:427][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.11.15-08.58.42:864][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.15-08.58.42:900][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.15-08.58.42:900][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.15-08.58.42:974][  0]LogOcInput: OculusInput pre-init called
+[2020.11.15-08.58.43:256][  0]LogEngine: Initializing Engine...
+[2020.11.15-08.58.43:257][  0]LogHMD: Oculus plugin initialized. Version: 4.25.4-14469661+++UE4+Release-4.25, OVRPlugin: 1.44.0
+[2020.11.15-08.58.43:258][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.15-08.58.43:382][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.15-08.58.43:393][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.15-08.58.43:393][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F77898FC00), frame # 0
+[2020.11.15-08.58.43:393][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7789F87C0), frame # 0
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-08.58.43:404][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-08.58.43:404][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-08.58.43:404][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-08.58.43:437][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-08.58.43:437][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-08.58.43:508][  0]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2020.11.15-08.58.43:510][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-08.58.43:513][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-08.58.43:513][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-08.58.43:514][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-08.58.43:515][  0]LogInit: FAudioDevice initialized.
+[2020.11.15-08.58.43:515][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.15-08.58.43:637][  0]LogDerivedDataCache: Saved boot cache 0.12s 98MB C:/Users/Acer/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.15-08.58.43:643][  0]LogInit: Texture streaming: Enabled
+[2020.11.15-08.58.43:673][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.15-08.58.43:673][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.15-08.58.43:676][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.15-08.58.43:753][  0]LogInit: Transaction tracking system initialized
+[2020.11.15-08.58.43:788][  0]BlueprintLog: New page: 에디터 로드
+[2020.11.15-08.58.43:911][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.11.15-08.58.44:139][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.15-08.58.44:139][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.15-08.58.44:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/' took 0.01s
+[2020.11.15-08.58.44:603][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.11.15-08.58.44:727][  0]LogSlate: Took 0.001716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.11.15-08.58.44:728][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.15-08.58.51:083][  0]LogSlate: Window '패키지 복원' being destroyed
+[2020.11.15-08.58.51:086][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.11.15-08.58.51:136][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.11.15-08.58.52:032][  0]LogSlate: Window '소스 컨트롤에서 체크아웃할 수 없습니다!' being destroyed
+[2020.11.15-08.58.52:035][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.11.15-08.58.52:042][  0]Message dialog closed, result: Ok, title: 소스 컨트롤에서 체크아웃할 수 없습니다!, text: 다음 애셋을 소스 컨트롤에서 체크아웃 시키지 못했습니다:
+/Game/BP_HandController
+/Game/BP_VRCharacter
+[2020.11.15-08.58.52:073][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.11.15-08.58.52:074][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.259
+[2020.11.15-08.58.52:075][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.15-08.58.52:075][  0]LightingResults: New page: 라이팅 빌드
+[2020.11.15-08.58.52:076][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-08.58.52:076][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-08.58.52:076][  0]MapCheck: New page: 맵 체크
+[2020.11.15-08.58.52:076][  0]LightingResults: New page: 라이팅 빌드
+[2020.11.15-08.58.52:092][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F77898FC00), frame # 0
+[2020.11.15-08.58.52:092][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7789F87C0), frame # 0
+[2020.11.15-08.58.52:092][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.11.15-08.58.52:353][  0]LogBlueprint: Warning: [Compiler BP_Security_Screen_Button] InputAction Event 가  ButtonPress 입력 액션  에 대해 알려지지 않은 'ButtonPress' 액션을 참조합니다.
+[2020.11.15-08.58.53:220][  0]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-08.58.53:221][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F70EA7FE00), frame # 0
+[2020.11.15-08.58.53:221][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F70EAA39C0), frame # 0
+[2020.11.15-08.58.53:290][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.15-08.58.53:318][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.11.15-08.58.53:321][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.15-08.58.53:321][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.408ms.
+[2020.11.15-08.58.53:321][  0]LogFileHelpers: Loading map 'MainMap' took 1.247
+[2020.11.15-08.58.53:324][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.509
+[2020.11.15-08.58.53:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-08.58.53:433][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-08.58.53:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-08.58.53:446][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-08.58.53:458][  0]LogCollectionManager: Loaded 0 collections in 0.002249 seconds
+[2020.11.15-08.58.53:474][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Collections/' took 0.00s
+[2020.11.15-08.58.53:474][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/Developers/Acer/Collections/' took 0.00s
+[2020.11.15-08.58.53:474][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/Collections/' took 0.00s
+[2020.11.15-08.58.53:474][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3430 classes and 823 folders.
+[2020.11.15-08.58.53:479][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.15-08.58.53:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.15-08.58.53:564][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.11.15-08.58.53:716][  0]LogSlate: Took 0.001558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.11.15-08.58.53:716][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.15-08.58.53:718][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.15-08.58.53:774][  0]LogRenderer: Reallocating scene render targets to support 912x572 Format 10 NumSamples 1 (Frame:1).
+[2020.11.15-08.58.53:837][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.15-08.58.53:886][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.15-08.58.53:886][  0]LogLoad: (Engine Initialization) Total time: 18.07 seconds
+[2020.11.15-08.58.53:886][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.15-08.58.53:907][  0]LogOcInput: OculusInput is initialized
+[2020.11.15-08.58.53:953][  0]LogAssetRegistry: Asset discovery search completed in 13.1976 seconds
+[2020.11.15-08.58.53:957][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.11.15-08.58.53:959][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.15-08.58.55:241][  4]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.15-08.58.56:985][ 12]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_VRCharacter.BP_VRCharacter
+[2020.11.15-08.58.57:159][ 12]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.11.15-08.58.58:133][ 12]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_HandController.BP_HandController
+[2020.11.15-08.58.58:519][ 12]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.15-08.58.58:557][ 13]LogSlate: Took 0.001019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.15-08.59.12:399][563]BlueprintLog: New page: BP_HandController 컴파일
+[2020.11.15-08.59.12:439][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.11.15-08.59.12:475][563]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.15-08.59.12:475][563]LogSlate: Took 0.001079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2020.11.15-09.01.16:587][211]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0013.dll
+[2020.11.15-09.01.17:616][215]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.15-09.01.17:663][215]LogClass: Could not find existing class HandController in package /Script/ArchitectureExplorer for HotReload, assuming new class
+[2020.11.15-09.01.17:676][215]LogHotReload: Re-instancing HandController after hot-reload.
+[2020.11.15-09.01.17:717][215]LogHotReload: Re-instancing VRCharacter after hot-reload.
+[2020.11.15-09.01.17:779][215]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2020.11.15-09.01.17:782][215]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.11.15-09.01.17:856][215]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 3430 classes and 823 folders.
+[2020.11.15-09.01.17:861][215]Display: HotReload took  0.2s.
+[2020.11.15-09.01.32:797][259]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0014.dll
+[2020.11.15-09.01.33:494][262]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.15-09.01.33:563][262]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2020.11.15-09.01.33:568][262]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.11.15-09.01.33:642][262]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 3430 classes and 823 folders.
+[2020.11.15-09.01.33:647][262]Display: HotReload took  0.2s.
+[2020.11.15-09.02.33:100][960]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0015.dll
+[2020.11.15-09.02.34:135][964]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.15-09.02.34:196][964]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2020.11.15-09.02.34:202][964]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.11.15-09.02.34:287][964]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 3430 classes and 823 folders.
+[2020.11.15-09.02.34:290][964]Display: HotReload took  0.2s.
+[2020.11.15-09.02.39:798][167]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-09.02.39:824][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-09.02.39:824][167]LogHMD: Initializing OVRPlugin session
+[2020.11.15-09.02.39:983][167]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-09.02.39:986][167]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 3:02:39)
+[2020.11.15-09.02.39:987][167]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.15-09.02.39:988][167]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.15-09.02.39:989][167]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-09.02.40:070][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081633s)
+[2020.11.15-09.02.40:071][167]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-09.02.40:071][167]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7AE421C00), frame # 3167
+[2020.11.15-09.02.40:071][167]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7AE43CF40), frame # 3167
+[2020.11.15-09.02.40:071][167]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2020.11.15-09.02.40:071][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.083278s)
+[2020.11.15-09.02.40:225][167]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2020.11.15-09.02.40:227][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-09.02.40:227][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-09.02.40:227][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-09.02.40:227][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-09.02.40:227][167]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-09.02.40:227][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-09.02.40:227][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-09.02.40:227][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-09.02.40:228][167]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-09.02.40:228][167]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-09.02.40:240][167]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.02.40:240][167]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.02.40:245][167]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.02.40:245][167]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.02.40:252][167]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.02.40:252][167]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.02.40:263][167]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.02.40:263][167]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.02.40:308][167]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-09.02.40:309][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-09.02.40:309][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-09.02.40:309][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-09.02.40:310][167]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-09.02.40:323][167]LogInit: FAudioDevice initialized.
+[2020.11.15-09.02.40:332][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.02.40:376][167]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-09.02.40:391][167]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-18.02.40
+[2020.11.15-09.02.40:391][167]LogWorld: Bringing up level for play took: 0.014312
+[2020.11.15-09.02.40:392][167]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.11.15-09.02.40:445][167]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.11.15-09.02.40:451][167]PIE: 서버가 로그인했습니다.
+[2020.11.15-09.02.40:451][167]PIE: 에디터에서 플레이 총 시작 시간 0.631초입니다.
+[2020.11.15-09.02.40:453][167]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.02.40:503][167]LogRenderer: Warning: Resizing VR buffer to 4704 by 2368
+[2020.11.15-09.02.40:503][167]LogRenderer: Reallocating scene render targets to support 4704x2368 Format 10 NumSamples 1 (Frame:1).
+[2020.11.15-09.02.40:503][167]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-09.03.07:415][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.03.07:415][232]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-09.03.07:460][232]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-09.03.07:496][232]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-09.03.07:499][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.03.07:507][232]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-09.03.07:513][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.03.07:613][232]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F7AE421C00), frame # 4232
+[2020.11.15-09.03.07:613][232]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7AE43CF40), frame # 4232
+[2020.11.15-09.03.07:617][232]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.11.15-09.03.07:653][233]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.11.15-09.03.07:662][233]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.03.42:069][724]BlueprintLog: New page: BP_HandController 컴파일
+[2020.11.15-09.03.42:113][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.11.15-09.03.42:887][801]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-09.03.42:912][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-09.03.42:912][801]LogHMD: Initializing OVRPlugin session
+[2020.11.15-09.03.43:049][801]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-09.03.43:051][801]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 3:03:43)
+[2020.11.15-09.03.43:051][801]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-09.03.43:118][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067643s)
+[2020.11.15-09.03.43:119][801]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-09.03.43:119][801]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F725394600), frame # 7801
+[2020.11.15-09.03.43:119][801]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F72619A700), frame # 7801
+[2020.11.15-09.03.43:119][801]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2020.11.15-09.03.43:119][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.068893s)
+[2020.11.15-09.03.43:147][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.11.15-09.03.43:148][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-09.03.43:148][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-09.03.43:148][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-09.03.43:148][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-09.03.43:148][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-09.03.43:148][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-09.03.43:148][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-09.03.43:148][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-09.03.43:149][801]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-09.03.43:149][801]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-09.03.43:160][801]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.03.43:160][801]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.03.43:166][801]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.03.43:166][801]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.03.43:172][801]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.03.43:172][801]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.03.43:182][801]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.03.43:182][801]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.03.43:227][801]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-09.03.43:228][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-09.03.43:228][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-09.03.43:228][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-09.03.43:228][801]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-09.03.43:239][801]LogInit: FAudioDevice initialized.
+[2020.11.15-09.03.43:248][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.03.43:292][801]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-09.03.43:308][801]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-18.03.43
+[2020.11.15-09.03.43:308][801]LogWorld: Bringing up level for play took: 0.015672
+[2020.11.15-09.03.43:308][801]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.11.15-09.03.43:317][801]PIE: 서버가 로그인했습니다.
+[2020.11.15-09.03.43:317][801]PIE: 에디터에서 플레이 총 시작 시간 0.407초입니다.
+[2020.11.15-09.03.43:317][801]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.03.43:363][801]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-09.04.56:580][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.04.56:581][533]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-09.04.56:618][533]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-09.04.56:647][533]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-09.04.56:651][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.04.56:661][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-09.04.56:666][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.04.56:715][533]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F72619A700), frame # 10533
+[2020.11.15-09.04.56:715][533]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F725394600), frame # 10533
+[2020.11.15-09.04.56:719][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.11.15-09.04.56:753][534]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.11.15-09.04.56:759][534]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.04.59:976][882]BlueprintLog: New page: BP_HandController 컴파일
+[2020.11.15-09.05.00:017][882]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.11.15-09.05.01:271][ 26]BlueprintLog: New page: BP_VRCharacter 컴파일
+[2020.11.15-09.05.01:327][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.11.15-09.05.46:767][825]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_BlinkerMaterial.M_BlinkerMaterial
+[2020.11.15-09.05.46:770][825]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.05.47:065][825]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.05.47:069][825]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.05.47:077][825]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.05.47:077][825]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.05.47:077][825]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.05.47:077][825]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.05.47:079][825]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.11.15-09.05.47:165][825]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.05.47:165][825]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.05.47:165][825]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.05.47:165][825]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.05.48:131][911]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.05.48:131][911]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.05.48:131][911]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.05.48:131][911]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.06.01:815][472]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.06.01:820][472]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.06.01:832][473]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.06.01:832][473]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.06.01:832][473]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.06.01:832][473]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.06.02:250][501]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.06.02:250][501]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.06.02:250][501]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.06.02:250][501]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.06.05:751][917]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.06.05:755][917]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.06.05:766][918]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.06.05:766][918]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.06.05:766][918]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.06.05:766][918]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.06.06:172][963]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.06.06:172][963]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.06.06:172][963]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.06.06:172][963]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.06.11:746][377]LogSlate: Window '메시지' being destroyed
+[2020.11.15-09.06.11:750][377]Message dialog closed, result: No, title: 메시지, text: 이 머티리얼의 변경내용을 원본 머티리얼에 적용할까요?
+/Game/M_BlinkerMaterial.M_BlinkerMaterial
+(아니오는 변경내용을 잃습니다!)
+[2020.11.15-09.06.11:804][377]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-09.06.11:804][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.06.15:534][737]LogAssetEditorSubsystem: Opening Asset editor for CurveFloat /Game/Curve_RadiusVsVelocity_Float.Curve_RadiusVsVelocity_Float
+[2020.11.15-09.09.11:765][280]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Curve_RadiusVsVelocity_FloatE5D3998648B97A77F13BD8A528186014.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/Curve_RadiusVsVelocity_Float.uasset'
+[2020.11.15-09.09.11:785][280]AssetCheck: New page: 애셋 저장: Curve_RadiusVsVelocity_Float
+[2020.11.15-09.09.11:785][280]LogContentValidation: Display: CurveFloat /Game/Curve_RadiusVsVelocity_Float.Curve_RadiusVsVelocity_Float 유효성 검사
+[2020.11.15-09.09.14:158][555]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-09.09.14:182][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-09.09.14:182][555]LogHMD: Initializing OVRPlugin session
+[2020.11.15-09.09.14:332][555]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-09.09.14:333][555]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 3:09:14)
+[2020.11.15-09.09.14:334][555]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-09.09.14:401][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067514s)
+[2020.11.15-09.09.14:402][555]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-09.09.14:402][555]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7B6805400), frame # 22555
+[2020.11.15-09.09.14:403][555]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7B681E980), frame # 22555
+[2020.11.15-09.09.14:403][555]LogPlayLevel: PIE: World Init took: (0.001352s)
+[2020.11.15-09.09.14:403][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.069057s)
+[2020.11.15-09.09.14:485][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-09.09.14:487][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-09.09.14:487][555]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-09.09.14:487][555]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-09.09.14:499][555]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.09.14:499][555]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.09.14:504][555]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.09.14:504][555]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.09.14:510][555]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.09.14:510][555]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.09.14:521][555]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.09.14:521][555]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.09.14:570][555]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-09.09.14:570][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-09.09.14:570][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-09.09.14:570][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-09.09.14:571][555]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-09.09.14:582][555]LogInit: FAudioDevice initialized.
+[2020.11.15-09.09.14:590][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.09.14:637][555]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-09.09.14:654][555]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-18.09.14
+[2020.11.15-09.09.14:654][555]LogWorld: Bringing up level for play took: 0.016364
+[2020.11.15-09.09.14:655][555]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.11.15-09.09.14:662][555]PIE: 서버가 로그인했습니다.
+[2020.11.15-09.09.14:662][555]PIE: 에디터에서 플레이 총 시작 시간 0.482초입니다.
+[2020.11.15-09.09.14:663][555]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.09.14:709][555]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-09.09.52:331][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.09.52:331][ 52]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-09.09.52:364][ 52]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-09.09.52:406][ 52]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-09.09.52:409][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.09.52:417][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-09.09.52:423][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.09.52:473][ 52]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7B681E980), frame # 24052
+[2020.11.15-09.09.52:473][ 52]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F7B6805400), frame # 24052
+[2020.11.15-09.09.52:479][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.11.15-09.09.52:512][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.11.15-09.09.52:517][ 53]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.09.59:881][924]LogEditorTransaction: Undo 키 이동
+[2020.11.15-09.10.00:323][937]LogEditorTransaction: Undo 키 이동
+[2020.11.15-09.10.00:806][989]LogEditorTransaction: Undo 키 이동
+[2020.11.15-09.10.04:216][398]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.04:217][398]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.04:254][399]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.04:254][399]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.04:255][399]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.04:255][399]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.05:723][533]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.05:724][533]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.05:729][534]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.05:729][534]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.05:729][534]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.05:729][534]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.06:232][594]LogEditorTransaction: Undo 노드 이동
+[2020.11.15-09.10.06:988][683]LogEditorTransaction: Undo 노드 추가
+[2020.11.15-09.10.11:607][224]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.11:607][224]LogEditorTransaction: Redo 노드 추가
+[2020.11.15-09.10.11:909][232]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.11:909][232]LogEditorTransaction: Redo 노드 이동
+[2020.11.15-09.10.12:124][238]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.12:124][238]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.12:125][238]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.12:156][238]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.12:156][238]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.12:156][238]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.12:156][238]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.12:299][256]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.12:299][256]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.12:300][256]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.12:312][257]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 4
+[2020.11.15-09.10.12:312][257]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 3
+[2020.11.15-09.10.12:312][257]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2020.11.15-09.10.12:312][257]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2020.11.15-09.10.12:521][281]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.12:521][281]LogEditorTransaction: Redo 키 이동
+[2020.11.15-09.10.12:793][312]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.12:793][312]LogEditorTransaction: Redo 키 이동
+[2020.11.15-09.10.13:485][395]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.13:485][395]LogEditorTransaction: Undo 키 이동
+[2020.11.15-09.10.13:909][446]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.13:910][446]LogEditorTransaction: Undo 키 이동
+[2020.11.15-09.10.14:310][494]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.14:310][494]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.14:311][494]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.14:321][495]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.14:321][495]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.14:321][495]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.14:321][495]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.15:435][628]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.15:435][628]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.15:436][628]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.15:455][631]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.15:455][631]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.15:455][631]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.15:455][631]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.15:878][681]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.15:878][681]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.15:879][681]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.15:885][682]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.15:885][682]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.15:885][682]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.15:885][682]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.17:067][823]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.17:067][823]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.17:068][823]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.17:075][824]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.17:075][824]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.17:075][824]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.17:075][824]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.17:610][888]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.17:610][888]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.17:611][888]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.17:619][889]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.17:619][889]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.17:619][889]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.17:619][889]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.18:040][939]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.18:040][939]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.18:041][939]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.18:049][940]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.18:049][940]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.18:049][940]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.18:049][940]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.18:460][989]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.18:460][989]LogEditorTransaction: Undo 노드 이동
+[2020.11.15-09.10.19:158][ 69]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.19:158][ 69]LogEditorTransaction: Redo 노드 이동
+[2020.11.15-09.10.21:805][385]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.21:805][385]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.21:806][385]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.21:822][386]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.21:822][386]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.21:822][386]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.21:822][386]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.25:493][812]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.25:493][812]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.25:494][812]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.25:500][812]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.25:500][812]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.25:500][812]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.25:500][812]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.29:705][262]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.29:705][262]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.29:706][262]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.29:737][263]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.29:737][263]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.29:737][263]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.29:737][263]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.30:589][320]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.30:589][320]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.30:589][320]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.30:598][322]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.30:598][322]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.30:598][322]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.30:598][322]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.31:638][446]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.31:639][446]LogEditorTransaction: Redo 키 이동
+[2020.11.15-09.10.32:730][576]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.32:730][576]LogEditorTransaction: Undo 키 이동
+[2020.11.15-09.10.33:388][655]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.33:388][655]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.33:389][655]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.33:404][656]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.33:404][656]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.33:404][656]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.33:404][656]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.33:963][723]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.33:963][723]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.33:964][723]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.33:973][725]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.33:973][725]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.33:974][725]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.33:974][725]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.34:813][825]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.34:813][825]LogEditorTransaction: Undo 노드 이동
+[2020.11.15-09.10.35:514][907]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.35:514][907]LogEditorTransaction: Redo 노드 이동
+[2020.11.15-09.10.39:883][413]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.39:883][413]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.39:884][413]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.39:922][414]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.39:922][414]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.39:923][414]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.39:923][414]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.41:081][511]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.41:081][511]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.41:082][511]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.41:090][512]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.41:090][512]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.41:090][512]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.41:090][512]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.45:881][ 78]LogEditorTransaction: Undo 노드 이동
+[2020.11.15-09.10.47:976][281]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.47:976][281]LogEditorTransaction: Redo 노드 이동
+[2020.11.15-09.10.49:049][408]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.49:049][408]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.49:050][408]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.49:089][408]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.49:090][408]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.49:090][408]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.49:090][408]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.53:431][917]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.53:431][917]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.53:432][917]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.53:438][917]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.53:438][917]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.53:438][917]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.53:438][917]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.57:644][352]Cmd: TRANSACTION REDO
+[2020.11.15-09.10.57:644][352]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.10.57:645][352]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.57:690][353]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.57:690][353]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.57:690][353]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.57:690][353]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.10.59:627][543]Cmd: TRANSACTION UNDO
+[2020.11.15-09.10.59:627][543]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.10.59:628][543]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.10.59:636][544]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.10.59:636][544]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.10.59:636][544]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.10.59:636][544]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.31:079][621]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_BlinkerMaterial.M_BlinkerMaterial
+[2020.11.15-09.11.31:080][621]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.31:166][621]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.31:169][621]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.31:180][621]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.11.15-09.11.31:185][621]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.31:185][621]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.31:185][621]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.31:185][621]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.31:248][621]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.31:248][621]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.31:248][621]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.31:248][621]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.32:003][678]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.32:003][678]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.32:003][678]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.32:003][678]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.35:350][ 69]LogEditorTransaction: Undo 노드 이동
+[2020.11.15-09.11.35:358][ 69]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.35:365][ 69]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.35:365][ 69]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.35:365][ 69]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.35:365][ 69]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.35:757][ 80]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.35:757][ 80]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.35:758][ 80]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.35:758][ 80]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.36:392][147]LogEditorTransaction: Redo 노드 이동
+[2020.11.15-09.11.36:399][147]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.36:416][148]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.36:416][148]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.36:416][148]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.36:416][148]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.36:800][191]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.36:800][191]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.36:800][191]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.36:800][191]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.37:142][232]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.11.37:143][232]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.37:146][232]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.37:149][232]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.37:149][232]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.37:149][232]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.37:149][232]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.37:197][232]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.37:198][232]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.37:198][232]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.37:198][232]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.37:658][275]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.37:658][275]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.37:658][275]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.37:658][275]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.38:266][348]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.11.38:267][348]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.38:271][348]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.38:288][349]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.38:784][397]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.38:784][397]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.38:784][397]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.38:784][397]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.39:301][459]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.11.39:302][459]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.39:305][459]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.39:323][460]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.39:821][508]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.39:822][508]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.39:822][508]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.39:822][508]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.40:368][573]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.11.40:369][573]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.40:373][573]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.40:391][574]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.40:896][622]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.40:896][622]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.40:896][622]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.40:896][622]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.43:132][885]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.11.43:133][885]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.43:142][885]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.43:142][885]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.43:142][885]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.43:142][885]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.43:143][885]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.43:173][886]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.43:174][886]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.43:174][886]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.43:174][886]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.43:642][929]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.43:642][929]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.43:642][929]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.43:642][929]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.44:567][ 40]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.11.44:568][ 40]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.44:571][ 40]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.44:571][ 40]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.44:571][ 40]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.44:571][ 40]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.44:571][ 40]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.44:606][ 43]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.44:606][ 43]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.44:606][ 43]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.44:606][ 43]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.45:062][ 85]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.45:062][ 85]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.45:062][ 85]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.45:062][ 85]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.45:354][120]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.11.45:355][120]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.45:359][120]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.45:376][121]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.45:873][167]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.45:873][167]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.45:873][167]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.45:873][167]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.46:406][231]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.11.46:407][231]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.46:410][231]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.46:412][231]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.46:412][231]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.46:412][231]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.46:412][231]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.46:453][235]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.46:453][235]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.46:453][235]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.46:453][235]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.46:929][279]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.46:929][279]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.46:929][279]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.46:929][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.47:612][361]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.11.47:613][361]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.47:616][361]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.47:636][362]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.48:128][409]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.48:128][409]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.48:128][409]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.48:128][409]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.50:840][732]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.11.50:841][732]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.50:850][732]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.50:850][732]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.50:850][732]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.50:850][732]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.50:851][732]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.50:908][733]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.50:908][733]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.50:908][733]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.50:908][733]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.51:375][745]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.51:375][745]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.51:375][745]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.51:375][745]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.52:902][928]LogEditorTransaction: Undo Default Value 편집
+[2020.11.15-09.11.52:903][928]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.52:906][928]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.52:924][929]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.53:438][978]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.53:438][978]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.53:438][978]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.53:438][978]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.53:771][ 18]LogEditorTransaction: Redo Default Value 편집
+[2020.11.15-09.11.53:772][ 18]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-09.11.53:775][ 18]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.53:792][ 19]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2020.11.15-09.11.53:792][ 19]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2020.11.15-09.11.53:793][ 19]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2020.11.15-09.11.53:793][ 19]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2020.11.15-09.11.53:793][ 19]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2020.11.15-09.11.53:793][ 19]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2020.11.15-09.11.53:793][ 19]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2020.11.15-09.11.53:793][ 19]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.11.15-09.11.54:289][ 65]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.54:289][ 65]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.54:289][ 65]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.54:289][ 65]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.56:648][348]LogEditorTransaction: Redo 키 이동
+[2020.11.15-09.11.56:649][348]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.56:678][349]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.56:679][349]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.56:679][349]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.56:679][349]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.57:029][388]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.57:029][388]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.57:029][388]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.57:029][388]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.11.57:612][458]LogEditorTransaction: Undo 키 이동
+[2020.11.15-09.11.57:613][458]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-09.11.57:630][459]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-09.11.57:630][459]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-09.11.57:630][459]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-09.11.57:630][459]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-09.11.58:018][502]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.11.15-09.11.58:018][502]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.11.15-09.11.58:018][502]MaterialEditorStats: Texture samplers: 1/16
+[2020.11.15-09.11.58:018][502]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.11.15-09.12.12:041][155]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Curve_RadiusVsVelocity_Float0E4E66BF4AB61978766D8D879B87F194.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/Curve_RadiusVsVelocity_Float.uasset'
+[2020.11.15-09.12.12:055][155]AssetCheck: New page: 애셋 저장: Curve_RadiusVsVelocity_Float
+[2020.11.15-09.12.12:055][155]LogContentValidation: Display: CurveFloat /Game/Curve_RadiusVsVelocity_Float.Curve_RadiusVsVelocity_Float 유효성 검사
+[2020.11.15-09.12.14:290][331]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-09.12.14:315][331]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2020.11.15-09.12.14:316][331]LogPlayLevel: [PlayLevel] Compiling BP_HandController before play...
+[2020.11.15-09.12.14:365][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.11.15-09.12.14:370][331]LogPlayLevel: PlayLevel: Blueprint regeneration took 55 ms (1 blueprints)
+[2020.11.15-09.12.14:370][331]LogHMD: Initializing OVRPlugin session
+[2020.11.15-09.12.14:519][331]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-09.12.14:522][331]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 3:12:14)
+[2020.11.15-09.12.14:522][331]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-09.12.14:600][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077264s)
+[2020.11.15-09.12.14:601][331]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-09.12.14:601][331]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F79CC79C00), frame # 39331
+[2020.11.15-09.12.14:601][331]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7A7851A80), frame # 39331
+[2020.11.15-09.12.14:601][331]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2020.11.15-09.12.14:601][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.078520s)
+[2020.11.15-09.12.14:628][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-09.12.14:629][331]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-09.12.14:629][331]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-09.12.14:629][331]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-09.12.14:641][331]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.12.14:641][331]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.12.14:648][331]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.12.14:649][331]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.12.14:654][331]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.12.14:654][331]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.12.14:669][331]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.12.14:669][331]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.12.14:715][331]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-09.12.14:716][331]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-09.12.14:716][331]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-09.12.14:716][331]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-09.12.14:716][331]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-09.12.14:729][331]LogInit: FAudioDevice initialized.
+[2020.11.15-09.12.14:737][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.12.14:785][331]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-09.12.14:800][331]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-18.12.14
+[2020.11.15-09.12.14:801][331]LogWorld: Bringing up level for play took: 0.014755
+[2020.11.15-09.12.14:801][331]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.11.15-09.12.14:810][331]PIE: 서버가 로그인했습니다.
+[2020.11.15-09.12.14:811][331]PIE: 에디터에서 플레이 총 시작 시간 0.498초입니다.
+[2020.11.15-09.12.14:811][331]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.12.14:861][331]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-09.12.47:852][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.12.47:852][612]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-09.12.47:896][612]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-09.12.47:927][612]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-09.12.47:929][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.12.47:934][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-09.12.47:941][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.12.47:989][612]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7A7851A80), frame # 40612
+[2020.11.15-09.12.47:989][612]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F79CC79C00), frame # 40612
+[2020.11.15-09.12.47:993][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.11.15-09.12.48:043][613]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.11.15-09.12.48:062][613]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.12.49:625][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.11.15-09.12.50:309][732]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/MainMap97597A024141384B24737DA443E8D519.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/MainMap.umap'
+[2020.11.15-09.12.50:359][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap_BuiltData" FILE="../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/MainMap_BuiltData.uasset" SILENT=true
+[2020.11.15-09.12.51:150][732]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/MainMap_BuiltDataAA74404F45CEB2B010C9529F3E0FEF09.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/MainMap_BuiltData.uasset'
+[2020.11.15-09.12.51:206][732]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2020.11.15-09.12.51:206][732]LogContentValidation: Display: World /Game/MainMap.MainMap 유효성 검사
+[2020.11.15-09.12.51:206][732]LogContentValidation: Display: MapBuildDataRegistry /Game/MainMap_BuiltData.MainMap_BuiltData 유효성 검사
+[2020.11.15-09.18.11:767][463]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-09.18.11:792][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-09.18.11:792][463]LogHMD: Initializing OVRPlugin session
+[2020.11.15-09.18.11:947][463]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-09.18.11:949][463]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 3:18:11)
+[2020.11.15-09.18.11:949][463]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-09.18.12:033][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084092s)
+[2020.11.15-09.18.12:034][463]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-09.18.12:034][463]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F79CC75C00), frame # 43463
+[2020.11.15-09.18.12:034][463]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7A5DBEAC0), frame # 43463
+[2020.11.15-09.18.12:034][463]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2020.11.15-09.18.12:035][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.085606s)
+[2020.11.15-09.18.12:063][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-09.18.12:069][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-09.18.12:069][463]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-09.18.12:069][463]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-09.18.12:082][463]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.18.12:082][463]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.18.12:088][463]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.18.12:088][463]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.18.12:095][463]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.18.12:095][463]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.18.12:108][463]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-09.18.12:108][463]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-09.18.12:161][463]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-09.18.12:161][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-09.18.12:161][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-09.18.12:161][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-09.18.12:161][463]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-09.18.12:175][463]LogInit: FAudioDevice initialized.
+[2020.11.15-09.18.12:186][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.18.12:230][463]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-09.18.12:245][463]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-18.18.12
+[2020.11.15-09.18.12:245][463]LogWorld: Bringing up level for play took: 0.015147
+[2020.11.15-09.18.12:246][463]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.11.15-09.18.12:254][463]PIE: 서버가 로그인했습니다.
+[2020.11.15-09.18.12:256][463]PIE: 에디터에서 플레이 총 시작 시간 0.465초입니다.
+[2020.11.15-09.18.12:256][463]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.18.12:312][463]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-09.21.29:397][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-09.21.29:397][683]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-09.21.29:438][683]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-09.21.29:486][683]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-09.21.29:489][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.21.29:497][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-09.21.29:501][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-09.21.29:549][683]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7A5DBEAC0), frame # 50683
+[2020.11.15-09.21.29:549][683]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F79CC75C00), frame # 50683
+[2020.11.15-09.21.29:553][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.11.15-09.21.29:593][684]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.11.15-09.21.29:599][684]LogEngine: Changing dynamic resolution state.
+[2020.11.15-09.26.06:922][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.11.15-09.26.06:929][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.033
+[2020.11.15-09.26.06:929][870]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_HandController] ([1] browsable assets)...
+[2020.11.15-09.26.06:941][870]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_HandController.BP_HandController]
+[2020.11.15-09.26.06:941][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_HandController]
+[2020.11.15-09.26.06:971][870]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/BP_HandController_Auto19B4349F14A5F0EF9974AFBB5FE179DC8.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Autosaves/Game/BP_HandController_Auto1.uasset'
+[2020.11.15-09.26.06:973][870]LogFileHelpers: Auto-saving content packages took 0.044
+[2020.11.15-11.01.19:832][190]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.11.15-11.01.25:993][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.11.15-11.01.27:548][773]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.15-11.01.48:911][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.11.15-11.01.48:916][281]LogMetaData: Removing '/Game/BP_HandHold.BP_HandHold:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2020.11.15-11.01.48:916][281]LogMetaData: Removing '/Game/BP_HandHold.SKEL_BP_HandHold_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2020.11.15-11.01.48:916][281]LogMetaData: Removing '/Game/BP_HandHold.BP_HandHold_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2020.11.15-11.01.48:916][281]LogMetaData: Removing '/Game/BP_HandHold.BP_HandHold:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2020.11.15-11.01.48:916][281]LogMetaData: Removing '/Game/BP_HandHold.BP_HandHold:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2020.11.15-11.01.48:916][281]LogMetaData: Removing '/Game/BP_HandHold.BP_HandHold:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2020.11.15-11.01.48:949][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_HandHold" FILE="../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/BP_HandHold.uasset" SILENT=true
+[2020.11.15-11.01.48:962][281]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/BP_HandHoldEC7B202C47B7D5AA8B8E79898D85E8D3.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/BP_HandHold.uasset'
+[2020.11.15-11.01.49:203][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.11.15-11.01.49:235][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.15-11.01.49:259][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.11.15-11.01.49:339][281]AssetCheck: New page: 애셋 저장: BP_HandHold
+[2020.11.15-11.01.49:339][281]LogContentValidation: Display: Blueprint /Game/BP_HandHold.BP_HandHold 유효성 검사
+[2020.11.15-11.01.58:235][433]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_HandHold.BP_HandHold
+[2020.11.15-11.02.00:718][608]LogSlate: Window 'BP_HandHold' being destroyed
+[2020.11.15-11.02.26:459][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.11.15-11.02.26:460][889]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.035
+[2020.11.15-11.02.26:460][889]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_HandController] ([1] browsable assets)...
+[2020.11.15-11.02.26:491][889]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_HandController.BP_HandController]
+[2020.11.15-11.02.26:491][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_HandController]
+[2020.11.15-11.02.26:522][889]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/BP_HandController_Auto250B13D2F4335C541498EF1A4E7B7CF04.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Autosaves/Game/BP_HandController_Auto2.uasset'
+[2020.11.15-11.02.26:523][889]LogFileHelpers: Auto-saving content packages took 0.064
+[2020.11.15-11.03.45:560][466]BlueprintLog: New page: BP_HandHold 컴파일
+[2020.11.15-11.03.45:634][466]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.11.15-11.03.46:330][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_HandHold" FILE="../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/BP_HandHold.uasset" SILENT=true
+[2020.11.15-11.03.46:354][533]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/BP_HandHoldE92B3E444E323DEF4BB48D8DE3D628E7.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Content/BP_HandHold.uasset'
+[2020.11.15-11.03.46:372][533]AssetCheck: New page: 애셋 저장: BP_HandHold
+[2020.11.15-11.03.46:373][533]LogContentValidation: Display: Blueprint /Game/BP_HandHold.BP_HandHold 유효성 검사
+[2020.11.15-11.04.45:024][959]BlueprintLog: New page: BP_HandHold 컴파일
+[2020.11.15-11.04.45:083][959]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.11.15-11.05.26:829][563]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_COG_Demo_Theatre_Floor_Whole)
+[2020.11.15-11.05.28:281][710]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_COG_Demo_Theatre_Floor_Whole)
+[2020.11.15-11.05.29:508][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_COG_Demo_Theatre_Floor_Whole)
+[2020.11.15-11.05.31:595][ 56]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2020.11.15-11.05.50:114][178]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-11.05.50:140][178]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2020.11.15-11.05.50:141][178]LogPlayLevel: [PlayLevel] Compiling BP_HandController before play...
+[2020.11.15-11.05.50:196][178]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2020.11.15-11.05.50:202][178]LogPlayLevel: PlayLevel: Blueprint regeneration took 61 ms (1 blueprints)
+[2020.11.15-11.05.50:202][178]LogHMD: Initializing OVRPlugin session
+[2020.11.15-11.05.50:366][178]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-11.05.50:369][178]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 5:05:50)
+[2020.11.15-11.05.50:369][178]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-11.05.50:438][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069004s)
+[2020.11.15-11.05.50:439][178]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-11.05.50:439][178]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7B2619600), frame # 253178
+[2020.11.15-11.05.50:439][178]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7ADEE8400), frame # 253178
+[2020.11.15-11.05.50:439][178]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2020.11.15-11.05.50:439][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.070348s)
+[2020.11.15-11.05.50:473][178]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.11.15-11.05.50:474][178]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-11.05.50:475][178]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-11.05.50:475][178]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-11.05.50:475][178]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-11.05.50:475][178]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-11.05.50:475][178]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-11.05.50:475][178]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-11.05.50:475][178]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-11.05.50:475][178]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-11.05.50:475][178]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-11.05.50:486][178]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.05.50:486][178]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.05.50:491][178]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.05.50:492][178]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.05.50:498][178]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.05.50:498][178]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.05.50:509][178]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.05.50:509][178]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.05.50:562][178]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-11.05.50:562][178]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-11.05.50:562][178]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-11.05.50:562][178]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-11.05.50:563][178]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-11.05.50:577][178]LogInit: FAudioDevice initialized.
+[2020.11.15-11.05.50:586][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.05.50:637][178]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-11.05.50:652][178]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-20.05.50
+[2020.11.15-11.05.50:653][178]LogWorld: Bringing up level for play took: 0.014987
+[2020.11.15-11.05.50:653][178]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.11.15-11.05.50:662][178]PIE: 서버가 로그인했습니다.
+[2020.11.15-11.05.50:664][178]PIE: 에디터에서 플레이 총 시작 시간 0.528초입니다.
+[2020.11.15-11.05.50:668][178]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.05.50:718][178]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-11.05.59:924][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.05.59:924][831]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-11.05.59:964][831]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-11.06.00:005][831]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-11.06.00:008][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.06.00:018][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-11.06.00:023][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.06.00:075][831]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7ADEE8400), frame # 253831
+[2020.11.15-11.06.00:075][831]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F7B2619600), frame # 253831
+[2020.11.15-11.06.00:082][831]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.11.15-11.06.00:120][832]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.11.15-11.06.00:195][832]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.06.36:329][ 70]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-11.06.36:356][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-11.06.36:356][ 70]LogHMD: Initializing OVRPlugin session
+[2020.11.15-11.06.36:517][ 70]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-11.06.36:518][ 70]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 5:06:36)
+[2020.11.15-11.06.36:555][ 70]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-11.06.36:639][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084423s)
+[2020.11.15-11.06.36:640][ 70]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-11.06.36:640][ 70]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7AD4E7E00), frame # 258070
+[2020.11.15-11.06.36:641][ 70]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7B1D1E700), frame # 258070
+[2020.11.15-11.06.36:641][ 70]LogPlayLevel: PIE: World Init took: (0.001401s)
+[2020.11.15-11.06.36:641][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.086079s)
+[2020.11.15-11.06.36:677][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.11.15-11.06.36:682][ 70]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-11.06.36:682][ 70]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-11.06.36:682][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-11.06.36:682][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-11.06.36:682][ 70]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-11.06.36:682][ 70]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-11.06.36:682][ 70]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-11.06.36:682][ 70]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-11.06.36:683][ 70]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-11.06.36:683][ 70]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-11.06.36:694][ 70]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.36:694][ 70]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.36:700][ 70]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.36:700][ 70]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.36:706][ 70]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.36:706][ 70]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.36:717][ 70]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.36:717][ 70]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.36:771][ 70]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-11.06.36:772][ 70]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-11.06.36:772][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-11.06.36:772][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-11.06.36:772][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-11.06.36:784][ 70]LogInit: FAudioDevice initialized.
+[2020.11.15-11.06.36:848][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.06.36:903][ 70]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-11.06.36:922][ 70]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-20.06.36
+[2020.11.15-11.06.36:922][ 70]LogWorld: Bringing up level for play took: 0.018788
+[2020.11.15-11.06.36:922][ 70]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.11.15-11.06.36:932][ 70]PIE: 서버가 로그인했습니다.
+[2020.11.15-11.06.36:935][ 70]PIE: 에디터에서 플레이 총 시작 시간 0.58초입니다.
+[2020.11.15-11.06.36:937][ 70]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.06.37:018][ 70]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-11.06.44:582][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.06.44:582][340]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-11.06.44:614][340]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-11.06.44:655][340]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-11.06.44:658][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.06.44:664][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-11.06.44:670][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.06.44:725][340]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7B1D1E700), frame # 258340
+[2020.11.15-11.06.44:725][340]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F7AD4E7E00), frame # 258340
+[2020.11.15-11.06.44:730][340]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.11.15-11.06.44:772][341]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.11.15-11.06.44:776][341]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.06.53:962][284]LogEditorViewport: Clicking on Actor (LMB): BP_HandHold_C (BP_HandHold)
+[2020.11.15-11.06.57:328][616]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-11.06.57:354][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-11.06.57:354][616]LogHMD: Initializing OVRPlugin session
+[2020.11.15-11.06.57:539][616]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-11.06.57:540][616]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 5:06:57)
+[2020.11.15-11.06.57:541][616]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-11.06.57:617][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076531s)
+[2020.11.15-11.06.57:618][616]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-11.06.57:618][616]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F79C3AC800), frame # 259616
+[2020.11.15-11.06.57:618][616]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7B5F6A0C0), frame # 259616
+[2020.11.15-11.06.57:619][616]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2020.11.15-11.06.57:619][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.078040s)
+[2020.11.15-11.06.57:656][616]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-11.06.57:659][616]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-11.06.57:659][616]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-11.06.57:659][616]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-11.06.57:673][616]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.57:673][616]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.57:679][616]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.57:679][616]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.57:685][616]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.57:685][616]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.57:698][616]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.06.57:698][616]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.06.57:741][616]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-11.06.57:741][616]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-11.06.57:741][616]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-11.06.57:741][616]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-11.06.57:742][616]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-11.06.57:754][616]LogInit: FAudioDevice initialized.
+[2020.11.15-11.06.57:765][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.06.57:819][616]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-11.06.57:836][616]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-20.06.57
+[2020.11.15-11.06.57:837][616]LogWorld: Bringing up level for play took: 0.016073
+[2020.11.15-11.06.57:837][616]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.11.15-11.06.57:846][616]PIE: 서버가 로그인했습니다.
+[2020.11.15-11.06.57:847][616]PIE: 에디터에서 플레이 총 시작 시간 0.495초입니다.
+[2020.11.15-11.06.57:848][616]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.06.57:898][616]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-11.07.01:292][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.07.01:292][741]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-11.07.01:333][741]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-11.07.01:366][741]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-11.07.01:368][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.07.01:378][741]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-11.07.01:385][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.07.01:436][741]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7B5F6A0C0), frame # 259741
+[2020.11.15-11.07.01:436][741]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F79C3AC800), frame # 259741
+[2020.11.15-11.07.01:441][741]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.11.15-11.07.01:480][742]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.11.15-11.07.01:487][742]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.07.03:183][902]LogEditorViewport: Clicking on Actor (LMB): BP_HandHold_C (BP_HandHold)
+[2020.11.15-11.07.09:408][560]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-11.07.09:433][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-11.07.09:433][560]LogHMD: Initializing OVRPlugin session
+[2020.11.15-11.07.09:594][560]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-11.07.09:596][560]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 5:07:09)
+[2020.11.15-11.07.09:625][560]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-11.07.09:697][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071871s)
+[2020.11.15-11.07.09:698][560]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-11.07.09:699][560]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7EA8E4C00), frame # 260560
+[2020.11.15-11.07.09:699][560]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7B18960C0), frame # 260560
+[2020.11.15-11.07.09:699][560]LogPlayLevel: PIE: World Init took: (0.002396s)
+[2020.11.15-11.07.09:700][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.074554s)
+[2020.11.15-11.07.09:734][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.11.15-11.07.09:737][560]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-11.07.09:737][560]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-11.07.09:737][560]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-11.07.09:737][560]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-11.07.09:737][560]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-11.07.09:737][560]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-11.07.09:737][560]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-11.07.09:737][560]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-11.07.09:738][560]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-11.07.09:738][560]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-11.07.09:750][560]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.09:750][560]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.09:757][560]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.09:757][560]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.09:764][560]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.09:764][560]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.09:776][560]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.09:776][560]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.09:815][560]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-11.07.09:815][560]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-11.07.09:816][560]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-11.07.09:816][560]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-11.07.09:816][560]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-11.07.09:828][560]LogInit: FAudioDevice initialized.
+[2020.11.15-11.07.09:841][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.07.09:902][560]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-11.07.09:920][560]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-20.07.09
+[2020.11.15-11.07.09:921][560]LogWorld: Bringing up level for play took: 0.017896
+[2020.11.15-11.07.09:921][560]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.11.15-11.07.09:931][560]PIE: 서버가 로그인했습니다.
+[2020.11.15-11.07.09:935][560]PIE: 에디터에서 플레이 총 시작 시간 0.504초입니다.
+[2020.11.15-11.07.09:937][560]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.07.09:992][560]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-11.07.14:569][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.07.14:569][736]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-11.07.14:615][736]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-11.07.14:656][736]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-11.07.14:659][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.07.14:672][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-11.07.14:679][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.07.14:739][736]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7B18960C0), frame # 260736
+[2020.11.15-11.07.14:739][736]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F7EA8E4C00), frame # 260736
+[2020.11.15-11.07.14:744][736]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.11.15-11.07.14:793][737]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.11.15-11.07.14:797][737]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.07.16:411][882]LogEditorViewport: Clicking on Actor (LMB): BP_HandHold_C (BP_HandHold)
+[2020.11.15-11.07.20:318][288]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-11.07.20:344][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-11.07.20:344][288]LogHMD: Initializing OVRPlugin session
+[2020.11.15-11.07.20:503][288]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-11.07.20:504][288]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 5:07:20)
+[2020.11.15-11.07.20:504][288]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-11.07.20:587][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082506s)
+[2020.11.15-11.07.20:588][288]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-11.07.20:588][288]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7D842DE00), frame # 261288
+[2020.11.15-11.07.20:588][288]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F7A6B85800), frame # 261288
+[2020.11.15-11.07.20:588][288]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2020.11.15-11.07.20:588][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.083848s)
+[2020.11.15-11.07.20:623][288]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-11.07.20:627][288]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-11.07.20:627][288]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-11.07.20:627][288]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-11.07.20:641][288]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.20:641][288]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.20:648][288]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.20:648][288]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.20:654][288]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.20:654][288]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.20:670][288]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.20:670][288]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.20:719][288]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-11.07.20:720][288]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-11.07.20:720][288]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-11.07.20:720][288]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-11.07.20:721][288]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-11.07.20:733][288]LogInit: FAudioDevice initialized.
+[2020.11.15-11.07.20:743][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.07.20:802][288]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-11.07.20:821][288]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-20.07.20
+[2020.11.15-11.07.20:821][288]LogWorld: Bringing up level for play took: 0.018258
+[2020.11.15-11.07.20:822][288]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.11.15-11.07.20:831][288]PIE: 서버가 로그인했습니다.
+[2020.11.15-11.07.20:833][288]PIE: 에디터에서 플레이 총 시작 시간 0.49초입니다.
+[2020.11.15-11.07.20:833][288]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.07.20:898][288]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-11.07.33:481][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.07.33:481][743]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-11.07.33:513][743]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-11.07.33:556][743]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-11.07.33:559][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.07.33:569][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-11.07.33:576][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.07.33:626][743]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F7A6B85800), frame # 261743
+[2020.11.15-11.07.33:626][743]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F7D842DE00), frame # 261743
+[2020.11.15-11.07.33:631][743]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.11.15-11.07.33:675][744]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.11.15-11.07.33:680][744]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.07.37:889][178]LogEditorViewport: Clicking on Actor (LMB): BP_HandHold_C (BP_HandHold)
+[2020.11.15-11.07.44:631][820]LogTemp: Repeating last play command: VR 프리뷰
+[2020.11.15-11.07.44:655][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.15-11.07.44:655][820]LogHMD: Initializing OVRPlugin session
+[2020.11.15-11.07.44:812][820]LogHMD: Allocating Oculus 4704 x 2368 rendertarget swapchain
+[2020.11.15-11.07.44:813][820]PIE: New page: PIE 세션: MainMap (2020. 11. 16. 오전 5:07:44)
+[2020.11.15-11.07.44:845][820]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.11.15-11.07.44:924][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078650s)
+[2020.11.15-11.07.44:924][820]LogAIModule: Creating AISystem for world MainMap
+[2020.11.15-11.07.44:924][820]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F7CCFCDA00), frame # 262820
+[2020.11.15-11.07.44:924][820]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F79A5091C0), frame # 262820
+[2020.11.15-11.07.44:925][820]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2020.11.15-11.07.44:925][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.080064s)
+[2020.11.15-11.07.44:960][820]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.15-11.07.44:964][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.15-11.07.44:964][820]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.15-11.07.44:964][820]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.15-11.07.44:976][820]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.44:976][820]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.44:983][820]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.44:983][820]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.44:989][820]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.44:989][820]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.45:000][820]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.15-11.07.45:000][820]LogAudioMixer: Display: 1: FrontRight
+[2020.11.15-11.07.45:038][820]LogAudioMixer: Display: Using Audio Device 헤드폰(Oculus Virtual Audio Device)
+[2020.11.15-11.07.45:038][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.15-11.07.45:038][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.15-11.07.45:038][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.15-11.07.45:039][820]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.15-11.07.45:053][820]LogInit: FAudioDevice initialized.
+[2020.11.15-11.07.45:065][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.07.45:118][820]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.11.15-11.07.45:137][820]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.11.15-20.07.45
+[2020.11.15-11.07.45:137][820]LogWorld: Bringing up level for play took: 0.017477
+[2020.11.15-11.07.45:138][820]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.11.15-11.07.45:146][820]PIE: 서버가 로그인했습니다.
+[2020.11.15-11.07.45:148][820]PIE: 에디터에서 플레이 총 시작 시간 0.495초입니다.
+[2020.11.15-11.07.45:148][820]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.07.45:205][820]LogHMD: Allocating Oculus 4704 x 2368 depth rendertarget swapchain
+[2020.11.15-11.08.59:730][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.15-11.08.59:730][466]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.11.15-11.08.59:760][466]LogSlate: Window 'ArchitectureExplorer 프리뷰 [NetMode: Standalone] (64-bit/Windows) OculusHMD' being destroyed
+[2020.11.15-11.08.59:806][466]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-11.08.59:808][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.08.59:819][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.15-11.08.59:825][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.08.59:877][466]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F79A5091C0), frame # 265466
+[2020.11.15-11.08.59:877][466]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F7CCFCDA00), frame # 265466
+[2020.11.15-11.08.59:882][466]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.11.15-11.08.59:922][467]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.11.15-11.08.59:926][467]LogEngine: Changing dynamic resolution state.
+[2020.11.15-11.11.41:499][590]LogSlate: Window '메시지' being destroyed
+[2020.11.15-11.11.41:504][590]Message dialog closed, result: Yes, title: 메시지, text: 이 머티리얼의 변경내용을 원본 머티리얼에 적용할까요?
+/Game/M_BlinkerMaterial.M_BlinkerMaterial
+(아니오는 변경내용을 잃습니다!)
+[2020.11.15-11.11.42:035][590]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.11.15-11.11.42:053][590]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.11.15-11.11.42:053][590]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.11.15-11.11.42:053][590]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.11.15-11.11.42:053][590]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.11.15-11.11.42:069][590]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.11.15-11.11.42:119][590]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2020.11.15-11.11.42:119][590]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2020.11.15-11.11.42:119][590]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2020.11.15-11.11.42:119][590]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2020.11.15-11.11.42:119][590]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2020.11.15-11.11.42:119][590]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2020.11.15-11.11.42:119][590]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2020.11.15-11.11.42:124][590]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.11.15-11.11.42:162][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.11.15-11.11.42:256][590]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.15-11.11.42:256][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.15-11.12.04:062][114]BlueprintLog: New page: BP_HandHold 컴파일
+[2020.11.15-11.12.04:120][114]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.11.15-11.14.21:715][649]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.11.15-11.14.22:354][649]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/MainMap_Auto3EB4D27D0476008125EE0F687F1794D65.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Autosaves/Game/MainMap_Auto3.umap'
+[2020.11.15-11.14.22:359][649]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.679
+[2020.11.15-11.14.22:359][649]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.679
+[2020.11.15-11.14.22:359][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_BlinkerMaterial] ([1] browsable assets)...
+[2020.11.15-11.14.22:389][649]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_BlinkerMaterial.M_BlinkerMaterial]
+[2020.11.15-11.14.22:389][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_BlinkerMaterial]
+[2020.11.15-11.14.22:415][649]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/M_BlinkerMaterial_Auto3F93C4A904A0B1A47D55BA6A770611CE2.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Autosaves/Game/M_BlinkerMaterial_Auto3.uasset'
+[2020.11.15-11.14.22:417][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_HandHold] ([1] browsable assets)...
+[2020.11.15-11.14.22:428][649]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_HandHold.BP_HandHold]
+[2020.11.15-11.14.22:428][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_HandHold]
+[2020.11.15-11.14.22:466][649]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/BP_HandHold_Auto32A6FCECF41A170A92C65EAB9B9892A77.tmp' to '../../../../../../Users/Acer/Documents/Unreal Projects/Architecture_Explorer/ArchitectureExplorer/Saved/Autosaves/Game/BP_HandHold_Auto3.uasset'
+[2020.11.15-11.14.22:467][649]LogFileHelpers: Auto-saving content packages took 0.108

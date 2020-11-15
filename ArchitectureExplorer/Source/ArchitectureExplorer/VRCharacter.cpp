@@ -9,6 +9,10 @@
 #include "Components/PostProcessComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "MotionControllerComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Components/SplineComponent.h"
+#include "Components/SplineMeshComponent.h"
+#include "HandController.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -22,17 +26,8 @@ AVRCharacter::AVRCharacter()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
 
-	LeftController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftController"));
-	LeftController->SetupAttachment(VRRoot);
-	LeftController->SetTrackingSource(EControllerHand::Left);
-	//컨트롤러 더미
-	//LeftController->bDisplayDeviceModel = true;
-
-	RightController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightController"));
-	RightController->SetupAttachment(VRRoot);
-	RightController->SetTrackingSource(EControllerHand::Right);
-	//컨트롤러 더미
-	//RightController->bDisplayDeviceModel = true;
+	TeleportPath = CreateDefaultSubobject<USplineComponent>(TEXT("TeleportPath"));
+	TeleportPath->SetupAttachment(VRRoot);
 
 	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DestinationMarker"));
 	DestinationMarker->SetupAttachment(GetRootComponent());
@@ -56,7 +51,24 @@ void AVRCharacter::BeginPlay()
 		BlinkerMaterialInstance = UMaterialInstanceDynamic::Create(BlinkerMaterialBase, this);
 		PostProcessComponent->AddOrUpdateBlendable(BlinkerMaterialInstance);
 	}
+
+	LeftController = GetWorld()->SpawnActor<AHandController>(HandControllerClass);
+	if (LeftController != nullptr)
+	{
+		LeftController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
+		LeftController->SetHand(EControllerHand::Left);
+		LeftController->SetOwner(this);
+	}
 	
+	RightController = GetWorld()->SpawnActor<AHandController>(HandControllerClass);
+	if (RightController != nullptr)
+	{
+		RightController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
+		RightController->SetHand(EControllerHand::Right);
+		RightController->SetRight();
+		RightController->SetOwner(this);
+	}
+
 }
 
 // Called every frame
@@ -79,34 +91,47 @@ void AVRCharacter::Tick(float DeltaTime)
 	UpdateBlinkers();
 }
 
-bool AVRCharacter::FindTeleportDestination(FVector& OutLocation)
+bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation)
 {
-	FVector Look = RightController->GetForwardVector();
-	Look = Look.RotateAngleAxis(30, RightController->GetRightVector());
-	FVector Start = RightController->GetComponentLocation() + Look * 5.0f;
-	FVector End = Start + Look * MaxTeleportDistance;
+	FVector Look = RightController->GetActorForwardVector();
+	FVector Start = RightController->GetActorLocation() + Look * 3.0f; //오큘러스 컨트롤러 때문에 앞으로 조금 빼 뒀음, 나중에 무시할 물체는 FPredictProjectilePathParams구조체 설정에서 ignore 설정하는게 좋을 듯
 
-	FHitResult HitResult;
-	bool bhit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
+	FPredictProjectilePathParams Params(
+		TeleportProjectileRadius, 
+		Start,
+		Look * TeleportProjectileSpeed, 
+		TeleportSimulationTime,
+		ECC_Visibility,
+		this
+	);
+	Params.bTraceComplex = true;		//메쉬가 제대로된 콜리전이 있어야함, 이건 콜리전이 없을때도 가능하게 편법을 사용한 것 - 완벽하진 않음 여전히 메시가 콜리전이 있어야함
+	FPredictProjectilePathResult Result;
+	bool bHit = UGameplayStatics::PredictProjectilePath(this, Params, Result);
+	
+	if (!bHit) return false;
 
-	if (!bhit) return false;
+	for (FPredictProjectilePathPointData PointData : Result.PathData)
+	{
+		OutPath.Add(PointData.Location);
+	}
 
 	//네비게이션 메쉬 안에 캐스팅 됐는지 체크
 	FNavLocation NavLocation;
-	bool bOnNavMesh = UNavigationSystemV1::GetCurrent(GetWorld())->ProjectPointToNavigation(HitResult.Location, NavLocation, TeleportProjectExtent);
+	bool bOnNavMesh = UNavigationSystemV1::GetCurrent(GetWorld())->ProjectPointToNavigation(Result.HitResult.Location, NavLocation, TeleportProjectExtent);
 
 	if (!bOnNavMesh) return false;
 
 	OutLocation = NavLocation.Location;
 
-	return bOnNavMesh && bhit;
+	return bOnNavMesh && bHit;
 }
 
 //텔레포트 레이트레이싱 위치 마킹
 void AVRCharacter::UpdateDestinationMarker()
 {
+	TArray<FVector> Path;
 	FVector Location;
-	bool bHasDestination = FindTeleportDestination(Location);
+	bool bHasDestination = FindTeleportDestination(Path, Location);
 
 	if (bHasDestination)		//텔레포트 가능할 때
 	{
@@ -114,11 +139,16 @@ void AVRCharacter::UpdateDestinationMarker()
 		DestinationMarker->SetVisibility(true);
 
 		DestinationMarker->SetWorldLocation(Location);
+
+		DrawTeleportPath(Path);
 	}
 	else			//텔레포트 불가능할 때
 	{
 		//텔레포트 실린더 끄기
 		DestinationMarker->SetVisibility(false);
+
+		TArray<FVector> EmptyPath;
+		DrawTeleportPath(EmptyPath);
 	}
 }
 
@@ -134,6 +164,55 @@ void AVRCharacter::UpdateBlinkers()
 	FVector2D Centre = GetBlinkerCentre();
 
 	BlinkerMaterialInstance->SetVectorParameterValue(TEXT("Centre"), FLinearColor(Centre.X, Centre.Y, 0.0f));
+}
+
+void AVRCharacter::DrawTeleportPath(const TArray<FVector>& Path)
+{
+	UpdateSpline(Path);
+
+	for (USplineMeshComponent* SplineMesh : TeleportPathMeshPool)
+	{
+		SplineMesh->SetVisibility(false);
+	}
+
+	int32 SegmentNum = Path.Num() - 1;
+	for (int32 i = 0; i < SegmentNum; ++i)
+	{
+		if (TeleportPathMeshPool.Num() <= i)
+		{
+			USplineMeshComponent* SplineMesh = NewObject<USplineMeshComponent>(this);
+			SplineMesh->SetMobility(EComponentMobility::Movable);
+			SplineMesh->AttachToComponent(TeleportPath, FAttachmentTransformRules::KeepRelativeTransform);
+			SplineMesh->SetStaticMesh(TeleportArchMesh);
+			SplineMesh->SetMaterial(0, TeleportArchMaterial);
+			SplineMesh->RegisterComponent();
+
+			TeleportPathMeshPool.Add(SplineMesh);
+		}
+	
+		USplineMeshComponent* SplineMesh = TeleportPathMeshPool[i];
+		SplineMesh->SetVisibility(true);
+
+		FVector StartPos, StartTangent, EndPos, EndTangent;
+		TeleportPath->GetLocalLocationAndTangentAtSplinePoint(i, StartPos, StartTangent);
+		TeleportPath->GetLocalLocationAndTangentAtSplinePoint(i + 1, EndPos, EndTangent);
+		SplineMesh->SetStartAndEnd(StartPos, StartTangent, EndPos, EndTangent);
+	}
+
+}
+
+void AVRCharacter::UpdateSpline(const TArray<FVector> &Path)
+{
+	TeleportPath->ClearSplinePoints(false);
+
+	for (int32 i = 0; i < Path.Num(); ++i)
+	{
+		FVector LocalPosition = TeleportPath->GetComponentTransform().InverseTransformPosition(Path[i]);
+		FSplinePoint Point(i, LocalPosition, ESplinePointType::Curve);
+		TeleportPath->AddPoint(Point, false);
+	}
+
+	TeleportPath->UpdateSpline();
 }
 
 FVector2D AVRCharacter::GetBlinkerCentre()
@@ -182,6 +261,10 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("RIght"), this, &AVRCharacter::MoveRight);			//왼쪽 스틱 좌우로 이동
 	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);	//버튼 텔레포트
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &AVRCharacter::TurnPlayer);			//오른쪽 스틱으로 회전
+	//PlayerInputComponent->BindAction(TEXT("GripLeft"), IE_Pressed, this, &AVRCharacter::BeginTeleport);	//버튼 텔레포트
+	//PlayerInputComponent->BindAction(TEXT("ReleaseLeft"), IE_Released, this, &AVRCharacter::BeginTeleport);	//버튼 텔레포트
+	//PlayerInputComponent->BindAction(TEXT("GripRight"), IE_Pressed, this, &AVRCharacter:://);
+	//PlayerInputComponent->BindAction(TEXT("ReleaseRight"), IE_Released, this, &AVRCharacter:://);
 }
 
 //전후 이동
@@ -209,9 +292,7 @@ void AVRCharacter::BeginTeleport()
 void AVRCharacter::FinishTeleport()
 {
 	FVector Destination = DestinationMarker->GetComponentLocation();
-
 	Destination += GetCapsuleComponent()->GetScaledCapsuleHalfHeight() * GetActorUpVector();
-
 	SetActorLocation(Destination);
 
 	StartFade(1, 0);

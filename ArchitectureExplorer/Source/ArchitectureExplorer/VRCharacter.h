@@ -28,9 +28,11 @@ public:
 
 private:
 
-	bool FindTeleportDestination(FVector &OutLocation);
+	bool FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation);
 	void UpdateDestinationMarker();
 	void UpdateBlinkers();
+	void DrawTeleportPath(const TArray<FVector>& Path);
+	void UpdateSpline(const TArray<FVector> &Path);
 	FVector2D GetBlinkerCentre();
 
 	void MoveForward(float throttle);
@@ -45,17 +47,21 @@ private:
 	void ExecuteTurn(int direction);
 	void ExecuteTurn_2(int direction);
 private:
+
 	UPROPERTY()
 	class UCameraComponent* Camera;
 
 	UPROPERTY()
-	class UMotionControllerComponent* LeftController;
+	class AHandController* LeftController;
 
 	UPROPERTY()
-	class UMotionControllerComponent* RightController;
+	class AHandController* RightController;
 
 	UPROPERTY()
 	class USceneComponent* VRRoot;
+
+	UPROPERTY(VisibleAnywhere)
+	class USplineComponent* TeleportPath;
 
 	UPROPERTY(VisibleAnywhere)
 	class UStaticMeshComponent* DestinationMarker;
@@ -66,16 +72,25 @@ private:
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
 
-private:
+	UPROPERTY(VisibleAnywhere)
+	TArray<class USplineMeshComponent*> TeleportPathMeshPool;
 
+private:
+	//Configuration Parameters
 	UPROPERTY(EditAnywhere)
 	float MoveSpeed = 1.0f;
 
 	UPROPERTY(EditAnywhere)
-	float MaxTeleportDistance = 1000;
+	float TeleportProjectileRadius = 10;
 
 	UPROPERTY(EditAnywhere)
-	float TeleportFadeTime = 1;
+	float TeleportProjectileSpeed = 600;
+
+	UPROPERTY(EditAnywhere)
+	float TeleportSimulationTime = 1;
+
+	UPROPERTY(EditAnywhere)
+	float TeleportFadeTime = 0.5;
 
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectExtent = FVector(100, 100, 100);
@@ -89,6 +104,18 @@ private:
 	UPROPERTY(EditAnywhere)
 	float TurningDegree = 30.0f;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditDefaultsOnly)
+	class UStaticMesh* TeleportArchMesh;
+
+	UPROPERTY(EditDefaultsOnly)
+	class UMaterialInterface* TeleportArchMaterial;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AHandController> HandControllerClass;
+
+	private:
+	//State 변수
+	UPROPERTY(EditAnywhere)	//컨트롤러 턴 할 때 한번만 실행시키는 시키는 키값
 	bool IsTurned = false;
+
 };
